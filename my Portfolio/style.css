@@ -100,7 +100,7 @@
     }
     
 
-    /* Animate headings on scroll */
+   
     .animate {
       opacity: 1 !important;
       transform: translateX(0) !important;
@@ -115,7 +115,7 @@
         transform: translateX(0);
       }
     }
-    /* Fade In */
+    
     .abt{
         place-items: center;
         margin-top: 100px;
@@ -135,7 +135,7 @@
       }
     }
 
-    /* About Section with Image */
+    
     #about {
       display: flex;
       align-items: center;
@@ -180,7 +180,7 @@
       min-width: 280px;
     }
 
-    /* Projects Section */
+    
     #projects .section-title{
         font-size: 2.5rem;
     margin-bottom: 2.5rem;
@@ -241,7 +241,7 @@
       background-color: #a6c8ff;
     }
 
-    /* Resume Section */
+  
     #resume{
          place-items: center;
         margin-top: 100px;
@@ -279,7 +279,7 @@
       margin-bottom: 20px;
     }
 
-    /* Contact Section */
+  
   
 #contact {
   display: flex;
@@ -329,7 +329,7 @@
   text-decoration: underline;
 }
 
-    /* Footer */
+    
     footer {
       text-align: center;
       padding: 1.5rem 1rem;
@@ -340,7 +340,6 @@
       margin-top: auto;
     }
 
-    /* Responsive */
     @media (max-width: 900px) {
       #about {
         flex-direction: column;

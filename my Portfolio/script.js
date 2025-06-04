@@ -10,7 +10,7 @@
 
     sections.forEach(sectionTitle => observer.observe(sectionTitle));
 
-    // Simple form submission handler: just alert and reset form (no backend)
+    
     document.querySelector('form').addEventListener('submit', e => {
       e.preventDefault();
       alert('Thank you for your message! I will get back to you shortly.');
