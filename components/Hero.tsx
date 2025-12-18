@@ -45,13 +45,6 @@ const Hero: React.FC = () => {
             >
               Download Resume
             </a>
-            <a
-              href="#contact"
-              onClick={(e) => smoothScroll(e, '#contact')}
-              className="px-8 py-4 bg-transparent border border-text-muted/30 rounded-xl font-semibold hover:bg-background-light dark:hover:bg-white/10 transition-all duration-300"
-            >
-              Contact Me
-            </a>
           </div>
         </div>
 
