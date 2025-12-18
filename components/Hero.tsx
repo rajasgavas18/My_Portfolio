@@ -31,15 +31,22 @@ const Hero: React.FC = () => {
           </p>
           
           <div className="flex flex-wrap gap-4 pt-2">
-            <a 
-              href="#projects" 
+            <a
+              href="#projects"
               onClick={(e) => smoothScroll(e, '#projects')}
               className="px-8 py-4 bg-text-main text-background-light dark:bg-white dark:text-black rounded-xl font-semibold hover:bg-primary hover:text-black hover:-translate-y-1 transition-all duration-300 shadow-lg shadow-primary/20"
             >
               View Projects
             </a>
-            <a 
-              href="#contact" 
+            <a
+              href="/resume.pdf"
+              download
+              className="px-8 py-4 bg-primary text-black rounded-xl font-semibold hover:bg-primary/80 hover:-translate-y-1 transition-all duration-300 shadow-lg shadow-primary/20"
+            >
+              Download Resume
+            </a>
+            <a
+              href="#contact"
               onClick={(e) => smoothScroll(e, '#contact')}
               className="px-8 py-4 bg-transparent border border-text-muted/30 rounded-xl font-semibold hover:bg-background-light dark:hover:bg-white/10 transition-all duration-300"
             >
